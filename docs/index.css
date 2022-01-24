@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: #4b4848;
+  background-color: azure;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+}
+
+.list-container > div {
+  min-width: 400px;
+  max-width: 550px;
+  justify-content: space-between;
+  border-bottom: 1px solid #fffbfb;
+}
+
+.task {
+  display: flex;
+  background-color: #dcdbdb;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  border: 0;
+}
+
+.task p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #645f5f;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+  max-width: 550px;
+  border-bottom: 1px solid #dcdbdb;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.icon-ellipsis-vertical {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.icon-trash {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+input {
+  position: relative;
+}
+
+.task-label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.marked {
+  text-decoration: line-through;
+}
+
+.list-description {
+  margin-left: 10px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+}
+
+#clear-btn {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 40%;
+}
+
+#clear-btn:hover {
+  color: rgb(179, 17, 17);
+  cursor: pointer;
+}
