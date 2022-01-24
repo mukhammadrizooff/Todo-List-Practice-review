@@ -3,7 +3,7 @@
 # Todo-List
 
 Additional description about the project and its features.
-![2022-01-25_02-31-11](https://user-images.githubusercontent.com/63915024/150868345-ded8a284-5e56-4836-804a-5d8b182905af.png)
+
 
 
 
