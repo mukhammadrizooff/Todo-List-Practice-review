@@ -7,6 +7,8 @@ Additional description about the project and its features.
 
 
 
+
+
 ## Built With
 
 - HTML
@@ -26,7 +28,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://mukhammadrizooff.github.io/To-Do-List/dist/)
+[Live Demo Link](https://mukhammadrizooff.github.io/To-Do-List/)
 
 ## Getting Started
 
